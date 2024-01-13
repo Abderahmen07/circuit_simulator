@@ -1,0 +1,28 @@
+.rectangle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1000px;
+  height: 600px;
+  overflow: hidden;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+
+}
+
+  .hhh {
+    height: 50%;
+    width: 11%;
+  }
+ 
+.cu{
+  cursor: move;
+}
+
+.other-canvas {
+  position: absolute;
+  z-index: 1;
+}

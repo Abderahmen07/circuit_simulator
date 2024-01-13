@@ -1,0 +1,21 @@
+
+
+<div>
+  <button class="button-14" role="button" (click)="toggleTable()">+</button>
+</div>
+
+<div [class.table-transition]="true" [hidden]="!showTable">
+  <table>
+    <tr  *ngFor="let i of tab">
+      <td >
+        <button (click)="onClick($event)" [id]="i" >
+          <img  [src]="t[i]" [id]="i"  >
+        </button>
+        <br>
+        <span>{{t[i+1]}}</span>
+      </td>
+    </tr>
+  </table>
+</div>
+
+
