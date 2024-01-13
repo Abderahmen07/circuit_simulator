@@ -15,6 +15,7 @@ Welcome to the Angular Electronic Circuit Simulator project! This web applicatio
    ```bash
    npm install
 2. **Run the Application:**
+   ```bash
    ng serve
 Open your browser and go to http://localhost:4200/ to use the application.
 
